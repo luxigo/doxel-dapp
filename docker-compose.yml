@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  doxel.public.dappnode.eth:
+    image: 'doxel.public.dappnode.eth:0.0.6'
+    build: ./build
+    volumes: []
+    ports: []

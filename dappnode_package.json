@@ -1,0 +1,32 @@
+{
+  "name": "doxel.public.dappnode.eth",
+  "version": "0.0.7",
+  "description": "doxel description",
+  "avatar": "/ipfs/QmQ1RzgoKW6ez2XPtf69ofGctc5uc1XkvAJt6i1m7UTrPe",
+  "type": "service",
+  "image": {
+    "path": "doxel.public.dappnode.eth_0.0.6.tar.xz",
+    "hash": "/ipfs/QmfFcVC5hiq5LJbEVN8qFConbY8tY3fLkxktAX6uJVY7Qd",
+    "size": 1413110924,
+    "volumes": [
+      "doxel-mongodb:/var/lib/mongodb",
+      "doxel-source:/home/doxel/doxel-loopback",
+      "doxel-images:/mnt"
+    ],
+    "ports": [
+      "3001:3001"
+    ],
+    "environment": [],
+    "restart": "always"
+  },
+  "dependencies": {},
+  "author": "luc.deschenaux@freesurf.ch",
+  "categories": [
+    "Photogrammetry"
+  ],
+  "links": {
+    "homepage": "https://github.com/doxel",
+    "UI": "http://doxel.public.dappnode:3001/"
+  },
+  "license": "AGPL-3.0-or-later"
+}
